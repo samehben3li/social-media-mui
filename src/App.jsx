@@ -1,8 +1,11 @@
-
+import { Box } from "@mui/material"
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
-    <div>App</div>
+    <Box>
+      <Navbar />
+    </Box>
   )
 }
 
